@@ -71,6 +71,6 @@ def check_url(url):
 st.title("Phishing Attempt Analyser")
 url = st.text_input("Enter the suspicious url : ")
 
-if st.button("Control of the legitimacy... : "):
+if st.button("Control of the legitimacy : "):
     result = check_url(url)
     st.write(f"The url is  {result}.")
