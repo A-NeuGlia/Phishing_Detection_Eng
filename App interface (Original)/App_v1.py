@@ -14,7 +14,7 @@ def load_model(url):
         model = joblib.load(model_file)
         return model
 
-model_url = 'https://github.com/A-NeuGlia/Phishing-Detection/raw/master/phishing_model.pkl'
+model_url = 'https://github.com/A-NeuGlia/Phishing_Detection_Eng/Algorithm V2 (Original)/raw/maser/phishing_model.pkl'
 model = load_model(model_url)
 if model:
     print("Model successfully loaded.")
